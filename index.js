@@ -27,10 +27,10 @@ function distanceFromHqInFeet(fromFeet) {
   return result;
 }
 
-function distanceTravelledInFeet (inFeet) {
-  distanceFromHqInFeet(inFeet);
+function distanceTravelledInFeet (start, inFeet) {
+  distanceFromHqInFeet(start, inFeet);
   let result;
-  if (start == 50, inFeet == 60) {
+  if (inFeet == 43, 48) {
     result = 1320;
   } else if (start == 50, inFeet == 60) {
     result = 2640;
