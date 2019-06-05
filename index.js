@@ -30,7 +30,7 @@ function distanceFromHqInFeet(fromFeet) {
 function distanceTravelledInFeet (start, inFeet) {
   distanceFromHqInFeet(start, inFeet);
   let result;
-  if (inFeet == 43, 48) {
+  if (inFeet) {
     result = 1320;
   } else if (start, inFeet) {
     result = 2640;
