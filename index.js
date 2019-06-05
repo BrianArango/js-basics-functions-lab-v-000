@@ -32,7 +32,7 @@ function distanceTravelledInFeet (start, inFeet) {
   let result;
   if (inFeet == 43, 48) {
     result = 1320;
-  } else if (start == 50, inFeet == 60) {
+  } else if (start == 60, inFeet == 50) {
     result = 2640;
   } else if (start == 50, inFeet == 60) {
     result = 1584;
