@@ -34,7 +34,7 @@ function distanceTravelledInFeet (inFeet) {
     result = 1320;
   } else if (inFeet == 50, 60) {
     result = 2640;
-  } else if (inFeet == 28, 34) {
+  } if (inFeet == 28, 34) {
     result = 1584;
   }
   return result;
