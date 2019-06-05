@@ -27,14 +27,14 @@ function distanceFromHqInFeet(fromFeet) {
   return result;
 }
 
-function distanceTravelledInFeet (start, inFeet) {
-  distanceFromHqInFeet(start, inFeet);
+function distanceTravelledInFeet (inFeet) {
+  distanceFromHqInFeet(inFeet);
   let result;
-  if (inFeet == 43, 48) {
+  if (inFeet == 43) {
     result = 1320;
-  } else if (start, inFeet) {
+  } else if (inFeet == 50) {
     result = 2640;
-  } else if (start == 34, inFeet == 28) {
+  } else if (inFeet == 34) {
     result = 1584;
   }
   return result;
